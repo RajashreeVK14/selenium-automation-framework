@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Knowledge Assistant API Suite" parallel="classes" thread-count="4">
+    <test name="Query API Tests">
+        <classes>
+            <class name="com.ka.api.tests.QueryApiPositiveTest"/>
+            <class name="com.ka.api.tests.QueryApiNegativeTest"/>
+            <class name="com.ka.api.tests.QueryApiSecurityTest"/>
+        </classes>
+    </test>
+    <test name="Documents API Tests">
+        <classes>
+            <class name="com.ka.api.tests.DocumentsApiPositiveTest"/>
+            <class name="com.ka.api.tests.DocumentsApiNegativeTest"/>
+        </classes>
+    </test>
+</suite>

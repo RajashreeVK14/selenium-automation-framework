@@ -1,0 +1,58 @@
+[
+  {
+    "testCaseId": "UI-D-NEG-001",
+    "description": "Draft document D-009 never visible to EMEA Manager",
+    "region": "EMEA",
+    "role": "Manager",
+    "forbiddenDocumentIds": ["D-009"]
+  },
+  {
+    "testCaseId": "UI-D-NEG-002",
+    "description": "In Review document D-003 never visible to APAC Employee",
+    "region": "APAC",
+    "role": "Employee",
+    "forbiddenDocumentIds": ["D-003"]
+  },
+  {
+    "testCaseId": "UI-D-NEG-003",
+    "description": "Retired document D-005 never visible",
+    "region": "Americas",
+    "role": "Employee",
+    "forbiddenDocumentIds": ["D-005"]
+  },
+  {
+    "testCaseId": "UI-D-NEG-004",
+    "description": "Engineering doc D-006 not visible to Employee",
+    "region": "Americas",
+    "role": "Employee",
+    "forbiddenDocumentIds": ["D-006"]
+  },
+  {
+    "testCaseId": "UI-D-NEG-005",
+    "description": "Finance doc D-008 not visible to Employee",
+    "region": "EMEA",
+    "role": "Employee",
+    "forbiddenDocumentIds": ["D-008"]
+  },
+  {
+    "testCaseId": "UI-D-NEG-006",
+    "description": "Manager doc D-007 not visible to Employee",
+    "region": "APAC",
+    "role": "Employee",
+    "forbiddenDocumentIds": ["D-007"]
+  },
+  {
+    "testCaseId": "UI-D-NEG-007",
+    "description": "Americas doc D-001 not visible to EMEA Employee",
+    "region": "EMEA",
+    "role": "Employee",
+    "forbiddenDocumentIds": ["D-001"]
+  },
+  {
+    "testCaseId": "UI-D-NEG-008",
+    "description": "EMEA doc D-002 not visible to Americas Employee",
+    "region": "Americas",
+    "role": "Employee",
+    "forbiddenDocumentIds": ["D-002"]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "testCaseId": "Q-SEC-001",
+    "description": "Americas Employee queries Americas-scoped content",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "What documents are available for Americas employees?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-SEC-002",
+    "description": "EMEA Engineering queries EMEA-scoped content",
+    "region": "EMEA",
+    "role": "Engineering",
+    "question": "What engineering runbooks are available in EMEA?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-SEC-003",
+    "description": "APAC Finance queries finance content",
+    "region": "APAC",
+    "role": "Finance",
+    "question": "What finance policies apply in APAC?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-SEC-004",
+    "description": "Manager role has elevated document visibility",
+    "region": "Americas",
+    "role": "Manager",
+    "question": "List management policies I can access",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  }
+]

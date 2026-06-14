@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Query API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Query API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 14 13:45:14 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13090 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiSecurityTest.query_security_matrix()'><b>query_security_matrix</b><br>Test class: com.ka.api.tests.QueryApiSecurityTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@55569d9</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@6f48b07e</td>
+<td></td>
+<td>1</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@57e196e8</td>
+<td></td>
+<td>3</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@5e7fc570</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@72110731</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@31aa2e39</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@32d7366</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@41dcd475</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@a5828d9</td>
+<td></td>
+<td>3</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@36c18ddd</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiSecurityTest.query_security_matrix()'><b>query_security_matrix</b><br>Test class: com.ka.api.tests.QueryApiSecurityTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@37201616</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@12393160</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@5194fb8a</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@16b911d5</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@67e74db7</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@22cbe9a4</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@7b464234</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@57ebcaf</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiSecurityTest.query_security_matrix()'><b>query_security_matrix</b><br>Test class: com.ka.api.tests.QueryApiSecurityTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@2c660816</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@6414593b</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@66203ad4</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@43a3f9fc</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiPositiveTest.query_positive_scenarios()'><b>query_positive_scenarios</b><br>Test class: com.ka.api.tests.QueryApiPositiveTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@4919856a</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiPositiveTest@6f03482</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@4294652e</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiSecurityTest.query_security_matrix()'><b>query_security_matrix</b><br>Test class: com.ka.api.tests.QueryApiSecurityTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@273e0d96</td>
+<td></td>
+<td>3</td>
+<td>com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.ka.api.tests.QueryApiNegativeTest.query_negative_scenarios()'><b>query_negative_scenarios</b><br>Test class: com.ka.api.tests.QueryApiNegativeTest<br>Parameters: com.ka.api.models.testdata.TestCaseData@418a00ef</td>
+<td></td>
+<td>0</td>
+<td>com.ka.api.tests.QueryApiNegativeTest@74e52ef6</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,79 @@
+[
+  {
+    "testCaseId": "UI-D-POS-001",
+    "description": "Americas Employee sees Americas + Global approved docs",
+    "region": "Americas",
+    "role": "Employee",
+    "expectedDocumentIds": ["D-001", "D-004"],
+    "forbiddenDocumentIds": ["D-002", "D-003", "D-005", "D-006", "D-007", "D-008", "D-009"],
+    "expectedMinDocuments": 2,
+    "expectedMaxDocuments": 2
+  },
+  {
+    "testCaseId": "UI-D-POS-002",
+    "description": "EMEA Employee sees EMEA + Global All Staff approved docs",
+    "region": "EMEA",
+    "role": "Employee",
+    "expectedDocumentIds": ["D-002", "D-004"],
+    "forbiddenDocumentIds": ["D-001", "D-003", "D-005", "D-006", "D-007", "D-008", "D-009"],
+    "expectedMinDocuments": 2,
+    "expectedMaxDocuments": 2
+  },
+  {
+    "testCaseId": "UI-D-POS-003",
+    "description": "APAC Employee sees only Global All Staff (APAC travel is In Review)",
+    "region": "APAC",
+    "role": "Employee",
+    "expectedDocumentIds": ["D-004"],
+    "forbiddenDocumentIds": ["D-001", "D-002", "D-003", "D-005", "D-006", "D-007", "D-008", "D-009"],
+    "expectedMinDocuments": 1,
+    "expectedMaxDocuments": 1
+  },
+  {
+    "testCaseId": "UI-D-POS-004",
+    "description": "Americas Engineering sees role-specific + regional + global docs",
+    "region": "Americas",
+    "role": "Engineering",
+    "expectedDocumentIds": ["D-001", "D-004", "D-006"],
+    "forbiddenDocumentIds": ["D-003", "D-005", "D-007", "D-008", "D-009"],
+    "expectedMinDocuments": 3,
+    "expectedMaxDocuments": 3
+  },
+  {
+    "testCaseId": "UI-D-POS-005",
+    "description": "EMEA Finance sees finance + global + regional docs",
+    "region": "EMEA",
+    "role": "Finance",
+    "expectedDocumentIds": ["D-002", "D-004", "D-008"],
+    "forbiddenDocumentIds": ["D-001", "D-003", "D-005", "D-006", "D-007", "D-009"],
+    "expectedMinDocuments": 3,
+    "expectedMaxDocuments": 3
+  },
+  {
+    "testCaseId": "UI-D-POS-006",
+    "description": "Americas Manager sees manager compensation doc",
+    "region": "Americas",
+    "role": "Manager",
+    "expectedDocumentIds": ["D-001", "D-004", "D-007"],
+    "forbiddenDocumentIds": ["D-003", "D-005", "D-008", "D-009"],
+    "expectedMinDocuments": 3,
+    "expectedMaxDocuments": 3
+  },
+  {
+    "testCaseId": "UI-D-POS-007",
+    "description": "EMEA Manager sees EMEA approved + global (not draft D-009)",
+    "region": "EMEA",
+    "role": "Manager",
+    "expectedDocumentIds": ["D-002", "D-004", "D-007"],
+    "forbiddenDocumentIds": ["D-009", "D-003", "D-005"],
+    "expectedMinDocuments": 3,
+    "expectedMaxDocuments": 3
+  },
+  {
+    "testCaseId": "UI-D-POS-008",
+    "description": "Changing region reloads visible documents",
+    "region": "Americas",
+    "role": "Employee",
+    "expectedDocumentIds": ["D-001"]
+  }
+]

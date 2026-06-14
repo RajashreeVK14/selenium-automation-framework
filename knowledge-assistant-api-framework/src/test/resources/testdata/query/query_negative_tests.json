@@ -1,0 +1,134 @@
+[
+  {
+    "testCaseId": "Q-NEG-001",
+    "description": "Missing X-User-Region header defaults to Americas/Employee",
+    "question": "What is the vacation policy?",
+    "headers": { "X-User-Role": "Employee" },
+    "expectedStatusCode": 200,
+    "expectedUserRegion": "Americas",
+    "expectedUserRole": "Employee",
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-002",
+    "description": "Missing X-User-Role header defaults to Americas/Employee",
+    "question": "What is the vacation policy?",
+    "headers": { "X-User-Region": "Americas" },
+    "expectedStatusCode": 200,
+    "expectedUserRegion": "Americas",
+    "expectedUserRole": "Employee",
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-003",
+    "description": "Invalid X-User-Region defaults to Americas",
+    "headers": { "X-User-Region": "InvalidRegion", "X-User-Role": "Employee" },
+    "question": "What is the vacation policy?",
+    "expectedStatusCode": 200,
+    "expectedUserRegion": "Americas",
+    "expectedUserRole": "Employee",
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-004",
+    "description": "Invalid X-User-Role defaults to Employee",
+    "headers": { "X-User-Region": "Americas", "X-User-Role": "Admin" },
+    "question": "What is the vacation policy?",
+    "expectedStatusCode": 200,
+    "expectedUserRegion": "Americas",
+    "expectedUserRole": "Employee",
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-005",
+    "description": "Missing question field still returns 200",
+    "region": "Americas",
+    "role": "Employee",
+    "requestBody": {},
+    "expectedStatusCode": 200,
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-006",
+    "description": "Empty question string still returns 200",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "",
+    "expectedStatusCode": 200,
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-007",
+    "description": "Whitespace-only question still returns 200",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "   ",
+    "expectedStatusCode": 200,
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-008",
+    "description": "Null question in JSON body still returns 200",
+    "region": "Americas",
+    "role": "Employee",
+    "requestBody": { "question": null },
+    "expectedStatusCode": 200,
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-009",
+    "description": "Empty request body still returns 200",
+    "region": "Americas",
+    "role": "Employee",
+    "expectedStatusCode": 200,
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-010",
+    "description": "Malformed JSON body still returns 200",
+    "region": "Americas",
+    "role": "Employee",
+    "expectedStatusCode": 200,
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-011",
+    "description": "Both headers missing defaults to Americas/Employee",
+    "question": "What is the vacation policy?",
+    "headers": {},
+    "expectedStatusCode": 200,
+    "expectedUserRegion": "Americas",
+    "expectedUserRole": "Employee",
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-012",
+    "description": "Lowercase region header defaults to Americas",
+    "headers": { "X-User-Region": "americas", "X-User-Role": "Employee" },
+    "question": "What is the vacation policy?",
+    "expectedStatusCode": 200,
+    "expectedUserRegion": "Americas",
+    "expectedUserRole": "Employee",
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-013",
+    "description": "Lowercase role header defaults to Employee",
+    "headers": { "X-User-Region": "Americas", "X-User-Role": "employee" },
+    "question": "What is the vacation policy?",
+    "expectedStatusCode": 200,
+    "expectedUserRegion": "Americas",
+    "expectedUserRole": "Employee",
+    "validateAnswerNotEmpty": true
+  },
+  {
+    "testCaseId": "Q-NEG-014",
+    "description": "text/plain content type still returns 200",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "What is the vacation policy?",
+    "contentType": "text/plain",
+    "expectedStatusCode": 200,
+    "validateAnswerNotEmpty": true
+  }
+]

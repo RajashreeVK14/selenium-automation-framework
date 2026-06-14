@@ -1,0 +1,74 @@
+[
+  {
+    "testCaseId": "D-NEG-001",
+    "description": "Missing X-User-Region header still returns 200",
+    "headers": { "X-User-Role": "Employee" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-002",
+    "description": "Missing X-User-Role header still returns 200",
+    "headers": { "X-User-Region": "Americas" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-003",
+    "description": "Invalid X-User-Region still returns 200",
+    "headers": { "X-User-Region": "Europe", "X-User-Role": "Employee" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-004",
+    "description": "Invalid X-User-Role still returns 200",
+    "headers": { "X-User-Region": "Americas", "X-User-Role": "SuperAdmin" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-005",
+    "description": "Both headers missing still returns 200",
+    "headers": {},
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-006",
+    "description": "Invalid state query returns empty array",
+    "region": "Americas",
+    "role": "Employee",
+    "stateQuery": "Published",
+    "expectedStatusCode": 200,
+    "expectEmptyArray": true
+  },
+  {
+    "testCaseId": "D-NEG-007",
+    "description": "Lowercase region header still returns 200",
+    "headers": { "X-User-Region": "emea", "X-User-Role": "Employee" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-008",
+    "description": "Lowercase role header still returns 200",
+    "headers": { "X-User-Region": "Americas", "X-User-Role": "manager" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-009",
+    "description": "Empty region header still returns 200",
+    "headers": { "X-User-Region": "", "X-User-Role": "Employee" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  },
+  {
+    "testCaseId": "D-NEG-010",
+    "description": "Empty role header still returns 200",
+    "headers": { "X-User-Region": "Americas", "X-User-Role": "" },
+    "expectedStatusCode": 200,
+    "expectMinDocumentCount": 1
+  }
+]

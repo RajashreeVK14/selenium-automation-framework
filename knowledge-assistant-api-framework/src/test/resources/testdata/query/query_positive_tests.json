@@ -1,0 +1,90 @@
+[
+  {
+    "testCaseId": "Q-POS-001",
+    "description": "Employee in Americas asks a policy question",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "What is the vacation policy?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-POS-002",
+    "description": "Engineering in EMEA asks a technical question",
+    "region": "EMEA",
+    "role": "Engineering",
+    "question": "What are the deployment guidelines?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-POS-003",
+    "description": "Finance in APAC asks a finance-related question",
+    "region": "APAC",
+    "role": "Finance",
+    "question": "What is the expense reimbursement process?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-POS-004",
+    "description": "Manager in Americas asks a management question",
+    "region": "Americas",
+    "role": "Manager",
+    "question": "How do I approve team leave requests?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-POS-005",
+    "description": "Question with special characters",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "What is the policy for WFH & hybrid work (2024)?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-POS-006",
+    "description": "Long question text",
+    "region": "EMEA",
+    "role": "Manager",
+    "question": "Can you explain the complete onboarding process for new hires including IT setup, HR documentation, benefits enrollment, and first-week schedule?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-POS-007",
+    "description": "All region-role matrix: APAC Employee",
+    "region": "APAC",
+    "role": "Employee",
+    "question": "What are the company holidays?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  },
+  {
+    "testCaseId": "Q-POS-008",
+    "description": "All region-role matrix: EMEA Finance",
+    "region": "EMEA",
+    "role": "Finance",
+    "question": "What is the budget approval workflow?",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/query_response_schema.json",
+    "validateAnswerNotEmpty": true,
+    "validateCitationsPresent": true
+  }
+]

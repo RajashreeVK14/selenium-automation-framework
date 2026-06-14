@@ -1,0 +1,77 @@
+[
+  {
+    "testCaseId": "UI-Q-POS-001",
+    "description": "Americas Employee asks meal allowance — grounded answer with citation",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "What is my meal allowance?",
+    "expectedAnswerContains": ["75"],
+    "expectedMinCitations": 1,
+    "expectedCitations": ["D-001"]
+  },
+  {
+    "testCaseId": "UI-Q-POS-002",
+    "description": "EMEA Employee asks meal allowance",
+    "region": "EMEA",
+    "role": "Employee",
+    "question": "What is my meal allowance in EMEA?",
+    "expectedAnswerContains": ["60"],
+    "expectedMinCitations": 1,
+    "expectedCitations": ["D-002"]
+  },
+  {
+    "testCaseId": "UI-Q-POS-003",
+    "description": "Americas Employee asks remote work policy (Global doc)",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "How many remote days per week are allowed?",
+    "expectedAnswerContains": ["remote"],
+    "expectedMinCitations": 1,
+    "expectedCitations": ["D-004"]
+  },
+  {
+    "testCaseId": "UI-Q-POS-004",
+    "description": "Engineering asks production data handling",
+    "region": "Americas",
+    "role": "Engineering",
+    "question": "Can I keep a local copy of production data?",
+    "expectedMinCitations": 1,
+    "expectedCitations": ["D-006"]
+  },
+  {
+    "testCaseId": "UI-Q-POS-005",
+    "description": "Finance asks procurement thresholds",
+    "region": "EMEA",
+    "role": "Finance",
+    "question": "What is the CFO sign-off threshold for procurement?",
+    "expectedAnswerContains": ["50"],
+    "expectedMinCitations": 1,
+    "expectedCitations": ["D-008"]
+  },
+  {
+    "testCaseId": "UI-Q-POS-006",
+    "description": "Manager asks compensation review process",
+    "region": "APAC",
+    "role": "Manager",
+    "question": "What is the compensation review process?",
+    "expectedMinCitations": 1,
+    "expectedCitations": ["D-007"]
+  },
+  {
+    "testCaseId": "UI-Q-POS-007",
+    "description": "Question with special characters",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "What is the meal allowance (USD) & receipt threshold?",
+    "expectedMinCitations": 1
+  },
+  {
+    "testCaseId": "UI-Q-POS-008",
+    "description": "Submit question using Enter key",
+    "region": "Americas",
+    "role": "Employee",
+    "question": "What is my meal allowance?",
+    "useEnterKey": true,
+    "expectedMinCitations": 1
+  }
+]

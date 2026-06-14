@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="50" passed="50" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-14T13:45:14 IST" name="Knowledge Assistant API Suite" finished-at="2026-06-14T13:45:36 IST" duration-ms="21735">
+    <groups>
+    </groups>
+    <test started-at="2026-06-14T13:45:14 IST" name="Query API Tests" finished-at="2026-06-14T13:45:28 IST" duration-ms="13090">
+      <class name="com.ka.api.tests.QueryApiSecurityTest">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2]" started-at="2026-06-14T13:45:14 IST" name="setUpApi" finished-at="2026-06-14T13:45:15 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="query_security_matrix(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2]" started-at="2026-06-14T13:45:16 IST" name="query_security_matrix" data-provider="jsonTestData" finished-at="2026-06-14T13:45:19 IST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@273e0d96]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_security_matrix -->
+        <test-method signature="query_security_matrix(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2]" started-at="2026-06-14T13:45:19 IST" name="query_security_matrix" data-provider="jsonTestData" finished-at="2026-06-14T13:45:20 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@2c660816]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_security_matrix -->
+        <test-method signature="query_security_matrix(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2]" started-at="2026-06-14T13:45:20 IST" name="query_security_matrix" data-provider="jsonTestData" finished-at="2026-06-14T13:45:20 IST" duration-ms="490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@55569d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_security_matrix -->
+        <test-method signature="query_security_matrix(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiSecurityTest@6ed3ccb2]" started-at="2026-06-14T13:45:20 IST" name="query_security_matrix" data-provider="jsonTestData" finished-at="2026-06-14T13:45:21 IST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@37201616]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_security_matrix -->
+      </class> <!-- com.ka.api.tests.QueryApiSecurityTest -->
+      <class name="com.ka.api.tests.QueryApiPositiveTest">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:14 IST" name="setUpApi" finished-at="2026-06-14T13:45:15 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:16 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:19 IST" duration-ms="3429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@57e196e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:19 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:20 IST" duration-ms="764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@6414593b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:20 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:20 IST" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@12393160]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:20 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:21 IST" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@67e74db7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:21 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:21 IST" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@41dcd475]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:21 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:22 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@43a3f9fc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:22 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:22 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@4919856a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+        <test-method signature="query_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiPositiveTest@6f03482]" started-at="2026-06-14T13:45:22 IST" name="query_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:23 IST" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@5e7fc570]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_positive_scenarios -->
+      </class> <!-- com.ka.api.tests.QueryApiPositiveTest -->
+      <class name="com.ka.api.tests.QueryApiNegativeTest">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:14 IST" name="setUpApi" finished-at="2026-06-14T13:45:15 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:16 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:19 IST" duration-ms="3629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@a5828d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:19 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:20 IST" duration-ms="570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@57ebcaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:20 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:20 IST" duration-ms="556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@16b911d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:20 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:21 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@31aa2e39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:21 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:23 IST" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@6f48b07e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:23 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:23 IST" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@66203ad4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:23 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:24 IST" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@4294652e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:24 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:24 IST" duration-ms="595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@36c18ddd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:24 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:25 IST" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@32d7366]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:25 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:25 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@5194fb8a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:25 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:26 IST" duration-ms="456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@72110731]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:26 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:26 IST" duration-ms="540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@7b464234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:26 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:27 IST" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@418a00ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+        <test-method signature="query_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.QueryApiNegativeTest@74e52ef6]" started-at="2026-06-14T13:45:27 IST" name="query_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:28 IST" duration-ms="530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@22cbe9a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query_negative_scenarios -->
+      </class> <!-- com.ka.api.tests.QueryApiNegativeTest -->
+    </test> <!-- Query API Tests -->
+    <test started-at="2026-06-14T13:45:28 IST" name="Documents API Tests" finished-at="2026-06-14T13:45:36 IST" duration-ms="8582">
+      <class name="com.ka.api.tests.DocumentsApiPositiveTest">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:28 IST" name="setUpApi" finished-at="2026-06-14T13:45:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:28 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:28 IST" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@718cae02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:28 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:29 IST" duration-ms="776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@20c13468]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:29 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:29 IST" duration-ms="514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@23871f17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:29 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:30 IST" duration-ms="506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@4c284cc0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:30 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:31 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@2e0dbe4c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:31 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:32 IST" duration-ms="1507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@12155bd6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:32 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:33 IST" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@4bd4327f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:33 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:33 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@6fce1ffa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:33 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:34 IST" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@302c75e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:34 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:34 IST" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@85e59df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:34 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:35 IST" duration-ms="342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@5cf8ae6f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:35 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:35 IST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@207c70b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:35 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:36 IST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@4467331a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+        <test-method signature="documents_positive_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiPositiveTest@609cd4d8]" started-at="2026-06-14T13:45:36 IST" name="documents_positive_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:36 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@3afc3779]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_positive_scenarios -->
+      </class> <!-- com.ka.api.tests.DocumentsApiPositiveTest -->
+      <class name="com.ka.api.tests.DocumentsApiNegativeTest">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:28 IST" name="setUpApi" finished-at="2026-06-14T13:45:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:28 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:28 IST" duration-ms="503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@19335f2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:28 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:29 IST" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@5b78ec91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:29 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:29 IST" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@5ffff72a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:29 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:30 IST" duration-ms="504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@34ff5f6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:30 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:30 IST" duration-ms="511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@5d0d4dc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:30 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:31 IST" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@69122d8e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:31 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:31 IST" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@473566ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:31 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:33 IST" duration-ms="1536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@4dab36c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:33 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:34 IST" duration-ms="627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@44baa23c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+        <test-method signature="documents_negative_scenarios(com.ka.api.models.testdata.TestCaseData)[pri:0, instance:com.ka.api.tests.DocumentsApiNegativeTest@17f7cd29]" started-at="2026-06-14T13:45:34 IST" name="documents_negative_scenarios" data-provider="jsonTestData" finished-at="2026-06-14T13:45:34 IST" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.ka.api.models.testdata.TestCaseData@158bd347]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documents_negative_scenarios -->
+      </class> <!-- com.ka.api.tests.DocumentsApiNegativeTest -->
+    </test> <!-- Documents API Tests -->
+  </suite> <!-- Knowledge Assistant API Suite -->
+</testng-results>

@@ -1,0 +1,127 @@
+[
+  {
+    "testCaseId": "D-POS-001",
+    "description": "List all documents for Americas Employee",
+    "region": "Americas",
+    "role": "Employee",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-002",
+    "description": "List all documents for EMEA Engineering",
+    "region": "EMEA",
+    "role": "Engineering",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-003",
+    "description": "List all documents for APAC Finance",
+    "region": "APAC",
+    "role": "Finance",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-004",
+    "description": "List all documents for Americas Manager",
+    "region": "Americas",
+    "role": "Manager",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-005",
+    "description": "Filter documents by region=Americas",
+    "region": "Americas",
+    "role": "Manager",
+    "regionQuery": "Americas",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-006",
+    "description": "Filter documents by region=EMEA",
+    "region": "EMEA",
+    "role": "Employee",
+    "regionQuery": "EMEA",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-007",
+    "description": "Filter documents by audience=All Staff",
+    "region": "Americas",
+    "role": "Employee",
+    "audienceQuery": "All Staff",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-008",
+    "description": "Filter documents by audience=Engineering",
+    "region": "EMEA",
+    "role": "Engineering",
+    "audienceQuery": "Engineering",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-009",
+    "description": "Filter documents by state=Approved",
+    "region": "Americas",
+    "role": "Manager",
+    "stateQuery": "Approved",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-010",
+    "description": "Filter documents by state=Draft",
+    "region": "Americas",
+    "role": "Manager",
+    "stateQuery": "Draft",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-011",
+    "description": "Filter documents by state=In Review",
+    "region": "EMEA",
+    "role": "Manager",
+    "stateQuery": "In Review",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-012",
+    "description": "Filter documents by state=Retired",
+    "region": "APAC",
+    "role": "Finance",
+    "stateQuery": "Retired",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-013",
+    "description": "Combined filters: region + state",
+    "region": "Americas",
+    "role": "Manager",
+    "regionQuery": "Americas",
+    "stateQuery": "Approved",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  },
+  {
+    "testCaseId": "D-POS-014",
+    "description": "Combined filters: region + audience + state",
+    "region": "EMEA",
+    "role": "Engineering",
+    "regionQuery": "EMEA",
+    "audienceQuery": "Engineering",
+    "stateQuery": "Approved",
+    "expectedStatusCode": 200,
+    "expectedSchema": "schemas/documents_response_schema.json"
+  }
+]
